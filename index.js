@@ -44,15 +44,15 @@ woocommerce.get("orders", {
             pMethodTitle=response.data[i].payment_method_title;
 
 
-            console.log(orderID);
-            console.log(total);
-            console.log(customerID);
-            console.log(billCompany);
-            console.log(billFirstName);
-            console.log(billLastName);
-            console.log(billCity);
-            console.log(shipingFirstName);
-            console.log(shipingLastName);
+            console.log(oID);
+            console.log(ttl);
+            console.log(cID);
+            console.log(bCompany);
+            console.log(bFirstName);
+            console.log(bLastName);
+            console.log(bCity);
+            console.log(sFirstName);
+            console.log(sLastName);
 
 
            db.query('INSERT INTO wOrder(orderID,total,customerID,billCompany,billFirstName,billLastName,billCity,shipingFirstName,shipingLastName) VALUES (?,?,?,?,?,?,?,?,?)',[oID,ttl,cID,bCompany,bFirstName,bLastName,bCity,sFirstName,sLastName],function (err,res) {
