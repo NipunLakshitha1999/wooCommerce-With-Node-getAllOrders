@@ -7,7 +7,7 @@ function getConnection() {
             host: 'localhost',
             user: 'root',
             password: 'root',
-            database: 'wooCommersOrders'
+            database: 'courier_db'
         });
     }
     return db;
