@@ -12,8 +12,8 @@ const wooCommerceAPI = require("@woocommerce/woocommerce-rest-api").default;
 
 const woocommerce = new wooCommerceAPI({
     url: "http://127.0.0.1/wordpress",
-    consumerKey: "ck_b94c70093b2d48c2113fc2987c42b5a0cd296b7c",
-    consumerSecret: "cs_c4473d345241b8ef0ca95d7c2ae8a217ad11557e",
+    consumerKey: "",
+    consumerSecret: "",
     version: 'wc/v3'
 
 });
